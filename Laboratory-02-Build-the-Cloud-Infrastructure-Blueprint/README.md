@@ -40,7 +40,7 @@ At the end of this laboratory activity, you should be able to:
 
 ## Linux Commands Executed
  
-| Purpose | Command |
+| Components | Command |
 |---|---|
 | Operating System | `cat /etc/os-release` |
 | Kernel Version | `uname -r` |
