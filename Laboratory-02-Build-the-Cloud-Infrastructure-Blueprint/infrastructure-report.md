@@ -1,4 +1,4 @@
-Checkpoint 2: Investigate the Cloud Server**
+**Checkpoint 2: Investigate the Cloud Server**
 
 
 ## 1. Operating System
