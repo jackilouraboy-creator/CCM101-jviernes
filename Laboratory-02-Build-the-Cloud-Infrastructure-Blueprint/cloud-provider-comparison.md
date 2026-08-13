@@ -26,3 +26,13 @@ Google Cloud Platform is widely recognized in this area. Kubernetes itself origi
 **4. What similarities did you observe among the three cloud providers?**
 
 All three providers offer the same basic categories of infrastructure, including compute, storage, networking, and identity and access management, following the same general Infrastructure as a Service (IaaS) model. Even though the services are named differently across platforms, they generally serve the same purpose and follow similar underlying concepts. All three also emphasize scalability, global availability, and built-in security and compliance features, which shows that the fundamentals of cloud computing remain consistent regardless of which provider is used.
+
+
+## References
+ 
+1. Amazon Virtual Private Cloud Documentation. https://docs.aws.amazon.com/vpc/
+2. Identity and access management for Amazon VPC, AWS Documentation. https://docs.aws.amazon.com/vpc/latest/userguide/security-iam.html
+3. Introduction to Azure Storage, Microsoft Learn. https://learn.microsoft.com/en-us/azure/storage/common/storage-introduction
+4. Publish VM applications using managed identity, Microsoft Learn. https://learn.microsoft.com/en-us/azure/virtual-machines/vm-applications-publish-with-managed-identity
+5. Compute Engine overview, Google Cloud Documentation. https://docs.cloud.google.com/compute/docs/overview
+6. Identity and Access Management, Cloud Storage, Google Cloud Documentation. https://docs.cloud.google.com/storage/docs/access-control/iam
