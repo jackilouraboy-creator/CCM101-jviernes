@@ -23,9 +23,7 @@ At the end of this laboratory activity, you should be able to:
 - Continue building a structured GitHub Cloud Computing Portfolio.
 
 ## Cloud Infrastructure Components
- 
-Four core categories of cloud infrastructure were investigated and documented in `cloud-components.md`, based on the findings from the KillerCoda environment:
- 
+
 - **Compute Resources**: the CPU and RAM that run workloads. The environment provided 1 CPU core and approximately 1.9 GiB of RAM.
 - **Storage Resources**: the disks that retain data even after a restart. The environment included `/dev/vda1`, `/dev/vda15`, and `/dev/vda16`.
 - **Networking Resources**: the addressing and connectivity that let systems communicate. The environment was assigned the internal IP addresses 172.30.1.2 and 172.17.0.1.
@@ -64,4 +62,4 @@ Having a portfolio in github presenting my cloud engineering skillset.
 
 ## Challenges Encountered
 
-A challenge was that the output of commands like mount reveals a number of virtual and pseudo-filesystems that are not related to the underlying persistent storage units. In addition, several entries were specific to the kernel and required investigation to separate relevant information from the noise. A significant challenge was also researching and comparing the services of the three clouds because the same concept could have different names in different clouds, such identity and access management in AWS IAM, Microsoft Entra ID, and Google Cloud IAM, and different approaches to implementing the same concepts, such as Azure RBAC versus IAM policies. The solution was to study each cloud’s ecosystem and corresponding documentation to extract and compare the relevant information.
+A challenge was that the output of commands such as mount showed a number of virtual and pseudo-filesystems that had nothing to do with persistent storage units. Besides, some entries were specific to the kernel, requiring research to separate relevant information from irrelevant. Another challenge was researching and comparing the services of the three clouds because the same ideas could have different names, such as identity and access management (IAM) in AWS, Microsoft Entra ID, Google Cloud IAM, or different realizations, such as Azure RBAC and IAM policies. The way I addressed these challenges was by studying each cloud’s ecosystem and respective documentation to make comparisons and extract relevant information.
