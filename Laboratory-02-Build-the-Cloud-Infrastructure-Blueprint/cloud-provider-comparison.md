@@ -13,26 +13,16 @@
 
 **1. Which cloud provider offers the broadest range of services? Explain your answer.**
 
-Based on the research, AWS offers the broadest range of services. As the first major cloud provider and the current market leader, it has built the largest and most mature catalog of managed services over time, covering everything from standard compute and storage to more specialized offerings. This wide selection gives organizations more flexibility to find a service that fits their specific needs within a single platform.
+Based on the provided research, AWS provides the largest variety of services. The company is the first cloud giant and currently leads the market due to a significant portfolio of managed services developed in-house. Its services cover standard solutions like storage and compute alongside more specific and unique services. This allows the company to offer the most flexible choices, as clients can find the most appropriate solution among the largest available variety.
 
 **2. Which cloud platform would you recommend for an organization that primarily uses Microsoft products?**
 
-Microsoft Azure would be the most suitable choice. Since Azure is built by Microsoft, it integrates closely with tools the organization likely already uses, such as Microsoft 365 and Active Directory or Entra ID. This makes identity management, licensing, and daily operations simpler for a team that is already familiar with the Microsoft ecosystem.
+Microsoft Azure would be my preferred cloud service. The reason is that Azure is a product of Microsoft, and as such it probably has better synergy with the Microsoft products that the company is already using, such as M365 and Microsoft Entra ID/Active Directory. This would make administration and management of the organization’s activities in the cloud more seamless.
 
 **3. Which platform is widely recognized for Artificial Intelligence (AI), Machine Learning (ML), and Kubernetes services?**
 
-Google Cloud Platform is widely recognized in this area. Kubernetes itself originated from Google, and GCP continues to offer one of the most mature managed Kubernetes services available. GCP also provides strong AI and machine learning tools, making it a common choice for organizations focused on these technologies.
+The Google Cloud Platform (GCP) is one of the most popular providers in the field. Kubernetes was originally developed there, and GCP continues to provide the most comprehensive managed Kubernetes services. The platform also has the most robust AI and machine learning solutions, which makes it the preferred choice for companies that want to pursue these technologies.
 
 **4. What similarities did you observe among the three cloud providers?**
 
-All three providers offer the same basic categories of infrastructure, including compute, storage, networking, and identity and access management, following the same general Infrastructure as a Service (IaaS) model. Even though the services are named differently across platforms, they generally serve the same purpose and follow similar underlying concepts. All three also emphasize scalability, global availability, and built-in security and compliance features, which shows that the fundamentals of cloud computing remain consistent regardless of which provider is used.
-
-
-## References
- 
-1. Amazon Virtual Private Cloud Documentation. https://docs.aws.amazon.com/vpc/
-2. Identity and access management for Amazon VPC, AWS Documentation. https://docs.aws.amazon.com/vpc/latest/userguide/security-iam.html
-3. Introduction to Azure Storage, Microsoft Learn. https://learn.microsoft.com/en-us/azure/storage/common/storage-introduction
-4. Publish VM applications using managed identity, Microsoft Learn. https://learn.microsoft.com/en-us/azure/virtual-machines/vm-applications-publish-with-managed-identity
-5. Compute Engine overview, Google Cloud Documentation. https://docs.cloud.google.com/compute/docs/overview
-6. Identity and Access Management, Cloud Storage, Google Cloud Documentation. https://docs.cloud.google.com/storage/docs/access-control/iam
+All three platforms offer the same infrastructure categories such as compute, storage, networking, and identity and access management on the same Infrastructure as a Service (IaaS). Different names were given to services on different platforms but the functions that they perform are similar. The three major providers present their services and solutions using similar principles. The three major providers present their services and solutions using similar principles. The three cloud providers give the same options and features such as being highly scalable and available worldwide as well as providing security and compliance.
