@@ -1,6 +1,5 @@
-# Reflection
  
-**Checkpoint 7**
+**Checkpoint 7 - Reflection**
 
 I think networking is the most important element of cloud infrastructure since it is what links all the components together. It wouldn't be of any use having a great deal of computing power or storage capacity if the various systems were unable to communicate with one another or with the internet. Moreover, networking contributes to security as it determines who is allowed in and who isn't.
 
