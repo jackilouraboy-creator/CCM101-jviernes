@@ -1,7 +1,5 @@
 Checkpoint 2: Investigate the Cloud Server**
-**Environment:** KillerCoda Playground
 
----
 
 ## 1. Operating System
 
