@@ -1,6 +1,4 @@
-# Infrastructure Report
-
-**Laboratory Activity 2 — Checkpoint 2: Investigate the Cloud Server**
+Checkpoint 2: Investigate the Cloud Server**
 **Environment:** KillerCoda Playground
 
 ---
