@@ -1,7 +1,5 @@
 **Checkpoint 4: Research the Major Cloud Providers**
 
-This document compares the core infrastructure services offered by the three leading public cloud providers: Amazon Web Services (AWS), Microsoft Azure, and Google Cloud Platform (GCP), based on their official documentation.
-
 ## Equivalent Services Table
 
 | Infrastructure Component | AWS | Microsoft Azure | Google Cloud Platform |
