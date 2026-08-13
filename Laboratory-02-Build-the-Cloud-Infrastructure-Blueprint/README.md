@@ -54,12 +54,12 @@ At the end of this laboratory activity, you should be able to:
 
 ## Skills Learned
 
-Using core linux commands to explore the server hardware and OS.
-Discovering the different types of cloud infrastructure like: Compute, Storage, Networking, Identity etc. and their relation to real-life counterparts.
-Comparing AWS, Azure, GCP resources naming and structure and being able to reference official documentation.
-Being able to write documentation in a clean way using Markdown for an engineering audience.
-Having a portfolio in github presenting my cloud engineering skillset.
+- Using core linux commands to explore the server hardware and OS.
+- Discovering the different types of cloud infrastructure like: Compute, Storage, Networking, Identity etc. and their relation to real-life counterparts.
+- Comparing AWS, Azure, GCP resources naming and structure and being able to reference official documentation.
+- Being able to write documentation in a clean way using Markdown for an engineering audience.
+- Having a portfolio in github presenting my cloud engineering skillset.
 
 ## Challenges Encountered
 
-A challenge was that the output of commands such as mount showed a number of virtual and pseudo-filesystems that had nothing to do with persistent storage units. Besides, some entries were specific to the kernel, requiring research to separate relevant information from irrelevant. Another challenge was researching and comparing the services of the three clouds because the same ideas could have different names, such as identity and access management (IAM) in AWS, Microsoft Entra ID, Google Cloud IAM, or different realizations, such as Azure RBAC and IAM policies. The way I addressed these challenges was by studying each cloud’s ecosystem and respective documentation to make comparisons and extract relevant information.
+A challenge was that the output of commands such as mount showed a number of virtual and pseudo-filesystems that had nothing to do with persistent storage units. Besides, some entries were specific to the kernel, requiring research to separate relevant information from irrelevant. Another challenge was researching and comparing the services of the three clouds because the same ideas could have different names, such as identity and access management (IAM) in AWS, Microsoft Entra ID, Google Cloud IAM, or different realizations, such as Azure RBAC and IAM policies.
