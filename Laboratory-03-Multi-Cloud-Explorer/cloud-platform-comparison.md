@@ -1,4 +1,4 @@
-# Compare the Major Cloud Platforms
+# Checkpoint 3 - Compare the Major Cloud Platforms
 
 | Category | AWS | Azure | GCP |
 |---|---|---|---|
@@ -25,3 +25,13 @@ GCP is strong in Artificial Intelligence, Machine Learning, and Kubernetes. Kube
 ### 4. Which cloud platform would you personally choose and why?
 
 I would personally choose AWS because it offers many cloud services for different types of projects. I also think it is a good platform for learning cloud computing and developing applications.
+
+# Checkpoint 5 - Match the Cloud Services
+
+| Service Category | AWS | Azure | GCP |
+|---|---|---|---|
+| Virtual Machine | EC2 | Azure Virtual Machines | Compute Engine |
+| Object Storage | S3 | Azure Blob Storage | Cloud Storage |
+| Identity Management | IAM | Microsoft Entra ID | Cloud IAM |
+| SQL Database | Amazon RDS | Azure SQL Database | Cloud SQL |
+| Kubernetes | Amazon EKS | Azure Kubernetes Service (AKS) | Google Kubernetes Engine (GKE) |
