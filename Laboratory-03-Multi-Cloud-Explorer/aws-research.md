@@ -7,9 +7,7 @@ Amazon Web Services (AWS) was launched in 2006. It is one of the most widely use
 ## Global Infrastructure
 
 AWS organizes its data centers into **Regions**. Each Region is a separate geographic area that contains at least three physically separated **Availability Zones**. Each Availability Zone has its own power, cooling, and security systems.
-
 The Availability Zones are connected through high-speed and low-latency networks. This setup helps applications continue working even if one Availability Zone experiences a problem or outage.
-
 AWS also provides **Edge Locations**, **Local Zones**, and **Wavelength Zones**. These services help provide faster access to applications and data by placing resources closer to users.
 
 ## Cloud Management Console
