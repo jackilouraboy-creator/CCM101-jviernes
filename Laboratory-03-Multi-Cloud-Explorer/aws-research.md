@@ -51,6 +51,4 @@ AWS can be used for many business and organizational purposes, including:
 - Application development
 - Startups that need to increase or decrease resources based on demand
 
-## Source
 
-- AWS Global Infrastructure: https://aws.amazon.com/about-aws/global-infrastructure
