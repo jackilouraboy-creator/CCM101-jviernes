@@ -50,6 +50,4 @@ Azure can be used for many business and organizational purposes, including:
 - Hosting business applications
 - Managing enterprise databases and data
   
-## Source
 
-- Azure Global Infrastructure: https://azure.microsoft.com/en-us/global-infrastructure/regions
