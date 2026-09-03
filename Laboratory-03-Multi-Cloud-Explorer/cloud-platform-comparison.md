@@ -2,7 +2,7 @@
 
 | Category | AWS | Azure | GCP |
 |---|---|---|---|
-| Launch Year | 2006 | 2010 | 2008 / rebranded in 2013 |
+| Launch Year | 2006 | 2010 | 2008 |
 | Compute Service | EC2 | Virtual Machines | Compute Engine |
 | Storage Service | S3 | Blob Storage | Cloud Storage |
 | Networking Service | VPC | Virtual Network (VNet) | VPC |
