@@ -1,4 +1,4 @@
-# Cloud Platform Comparison
+# Compare the Major Cloud Platforms
 
 | Category | AWS | Azure | GCP |
 |---|---|---|---|
