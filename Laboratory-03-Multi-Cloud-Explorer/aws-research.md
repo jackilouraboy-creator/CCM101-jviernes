@@ -13,7 +13,6 @@ AWS also provides **Edge Locations**, **Local Zones**, and **Wavelength Zones**.
 ## Cloud Management Console
 
 AWS resources can mainly be managed through the **AWS Management Console**. It is a web-based dashboard that allows users to create, monitor, and manage cloud resources.
-
 AWS also provides the **AWS Command Line Interface (CLI)** and **Software Development Kits (SDKs)**. These tools allow users and developers to manage AWS services using commands and programming languages.
 
 ## Four Core Services
