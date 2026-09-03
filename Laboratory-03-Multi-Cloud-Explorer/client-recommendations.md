@@ -1,4 +1,4 @@
-# Cloud Platform Recommendation Challenge
+# Checkpoint 4 - Cloud Platform Recommendation Challenge
 
 ## Client A - Startup Company
 
@@ -48,3 +48,14 @@ AWS is a good choice for the global e-commerce company because it has a large gl
 - Amazon EC2
 - Amazon S3
 - Amazon RDS
+
+# Checkpoint 6 - Multi-Cloud Decision Matrix
+
+| Business Requirement | Recommended Platform | Justification |
+|---|---|---|
+| Startup Company | AWS | AWS provides many services that can support startups as they grow. |
+| Enterprise Organization | AWS | AWS has a broad service catalog and supports different enterprise workloads. |
+| Microsoft Environment | Azure | Azure has strong integration with Windows Server, Microsoft 365, and Active Directory. |
+| AI / Machine Learning | GCP | GCP provides strong AI and Machine Learning tools such as Vertex AI. |
+| Kubernetes Deployment | GCP | Kubernetes originated at Google, and GCP provides Google Kubernetes Engine (GKE). |
+| Global Web Application | AWS | AWS has a large global infrastructure that can support applications used by customers around the world. |
