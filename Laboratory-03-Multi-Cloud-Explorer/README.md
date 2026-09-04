@@ -18,15 +18,12 @@ The server has **1.96 GiB of total memory**. About **425 MiB is used**, while ar
 
 The main filesystem has a total size of **19 GB**, with about **5.4 GB used** and **13 GB available**. The main filesystem is mounted at `/`.
 
-## Cloud Migration
+### If this Linux server were migrated to the cloud, which AWS, Azure, and GCP services could host it?
+If this Linux server were migrated to the cloud, it could be hosted using the following services:
 
-If this Linux server were migrated to the cloud, it could be hosted using virtual machine services from AWS, Azure, and GCP.
+- **AWS:** Amazon EC2
+- **Azure:** Azure Virtual Machines
+- **GCP:** Compute Engine
 
-| Cloud Provider | Service |
-|---|---|
-| AWS | Amazon EC2 |
-| Azure | Azure Virtual Machines |
-| GCP | Compute Engine |
-
-These services can provide virtual machines for running a Linux server in the cloud. The appropriate service can be selected based on the required CPU, memory, storage, and operating system.
+These services provide virtual machines that can run a Linux server in the cloud. The suitable service can be selected based on the server's CPU, memory, storage, and operating system requirements.
 
