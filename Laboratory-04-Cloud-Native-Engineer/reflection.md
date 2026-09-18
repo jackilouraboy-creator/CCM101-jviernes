@@ -1,4 +1,4 @@
-# Mission Reflection
+# Checkpoint 7 - Mission Reflection
 
 The difference in setup time between a VM and a Docker container is honestly the first thing that stood out to me. Installing an OS on a VM means booting a bootloader, letting the operating system initialize, and often walking through a setup wizard before anything useful can run, a process that easily eats several minutes. A Docker container skips almost all of that because it doesn't boot an OS at all, it shares the host's kernel and just starts the application process directly. That's why pulling and running Nginx took seconds instead of the 15 minutes a VM-based setup might require.
 
