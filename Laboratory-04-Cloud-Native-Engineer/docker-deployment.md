@@ -1,11 +1,12 @@
 ## Checkpoint 3: Enter the Docker Playground
 
 **Commands run:**
-
+```
 docker --version
-
+```
+```
 docker info
-
+```
 **Output summary:**
 - `docker --version` → `Docker version 29.1.3, build 29.1.3-0ubuntu3-24.04.2`
 - `docker info` → confirms the daemon is live: Server Version 29.1.3, Storage Driver overlay2, Cgroup Driver systemd, 1 image already present, 0 containers running, on Ubuntu 24.04.4 LTS.
@@ -17,17 +18,19 @@ docker info
 ## Checkpoint 4: Deploy Your First Container
 
 **Commands run:**
-
+```
 docker pull nginx
-
+```
+```
 docker run -d -p 8080:80 nginx
-
+```
+```
 curl http://localhost:8080
-
+```
 
 **Output summary:**
 - `docker pull nginx` → downloaded all 7 image layers, `Status: Downloaded newer image for nginx:latest`.
-- `docker run -d -p 8080:80 nginx` → started successfully, returned container ID `64d875e169d361679af51a3a1ba836913999065e8acb6e2f6736642ee6d257f8`.
+- `docker run -d -p 8080:80 nginx` → started successfully, returned container ID `973453f09a768ed0673637fc15c6d8f661c2eab5edb47985661995098d93f7e3`.
 - `curl http://localhost:8080` → returned the full "Welcome to nginx!" HTML page, confirming the server is live and reachable on port 8080.
 
 **Explanation of each command:**
@@ -35,3 +38,21 @@ curl http://localhost:8080
 - `docker run -d -p 8080:80 nginx` runs the container in detached (background) mode and maps port 8080 on the host to port 80 inside the container, where Nginx listens.
 - `curl http://localhost:8080` sends an HTTP request to the container and confirms the web server responds correctly.
 
+## Checkpoint 5: Container Lifecycle
+```
+docker ps
+```
+
+Lists the currently running containers, showing the container ID, image, status, and port mapping for the Nginx container just started.
+```
+docker stop 973453f09a76
+```
+Stops the running container gracefully, the container still exists but is no longer serving traffic.
+```
+docker ps -a
+```
+Lists all containers, including stopped ones, letting you confirm the container's status is now "Exited."
+```
+docker rm 973453f09a76
+```
+Removes the stopped container completely, deleting its writable layer along with any data that wasn't stored outside the container (e.g. in a volume).
