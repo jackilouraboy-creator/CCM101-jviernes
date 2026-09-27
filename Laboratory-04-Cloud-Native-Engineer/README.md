@@ -1,23 +1,18 @@
-# Laboratory 04: Cloud-Native Engineer
+# Laboratory Activity 4: The Cloud-Native Engineer
 
 ## Mission Overview
-
-Congratulations! After successfully guiding our clients through multi-cloud evaluations, you have been promoted to the **Cloud-Native Engineering Team** at CloudNova Technologies.
-Modern cloud computing is no longer just about renting Virtual Machines (VMs) from AWS or Azure. Today's enterprise applications are built using lightweight, portable, and lightning-fast technologies called **Containers**. Your new mission is to understand the shift from traditional virtualization to containerization.
-Using the KillerCoda Playground, you will step into the shoes of a Cloud-Native Engineer. You will research the differences between VMs and containers, execute your very first Docker commands, and deploy a live, containerized web server in seconds.
-
-Remember: **A traditional system administrator manages servers, but a cloud-native engineer manages the services running on them.**
+This laboratory activity focused on understanding the shift from traditional
+virtualization to containerization. I deployed a live containerized Nginx
+web server using Docker on the KillerCoda Playground and documented each
+step of the process.
 
 ## Objectives
-
-At the end of this laboratory activity, you should be able to:
-
-- Differentiate between traditional Virtual Machines (VMs) and Containers.
-- Access a Docker-enabled cloud environment using KillerCoda.
-- Execute fundamental Docker CLI (Command Line Interface) commands.
-- Pull, run, manage, and terminate a containerized application (Nginx).
-- Create professional technical documentation of container operations using Markdown.
-- Continue developing a well-organized GitHub Cloud Computing Portfolio.
+- Differentiate between Virtual Machines and Containers
+- Access a Docker enabled cloud environment using KillerCoda
+- Execute fundamental Docker CLI commands
+- Pull, run, manage, and terminate a containerized Nginx application
+- Create technical documentation of container operations in Markdown
+- Continue building a well organized GitHub Cloud Computing Portfolio
 
 ## Docker Commands Executed
 ```
