@@ -1,5 +1,3 @@
-# Docker Compose Guide
-
 This guide documents the `docker-compose.yml` file used to deploy a private Nextcloud cloud storage system backed by a MariaDB database.
 
 ## The Compose File
