@@ -1,39 +1,18 @@
-services:
-  db:
-    image: mysql:8.0
-    container_name: wp_db
-    restart: unless-stopped
-    environment:
-      MYSQL_DATABASE: wordpress
-      MYSQL_USER: wpuser
-      MYSQL_PASSWORD: ${MYSQL_PASSWORD:-ChangeMe_WP123}
-      MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD:-ChangeMe_Root123}
-    volumes:
-      - db_data:/var/lib/mysql
-    networks:
-      - backend
+#!/bin/bash
+# CloudNova automated database backup
+set -euo pipefail
 
-  wordpress:
-    image: wordpress:latest
-    container_name: wp_app
-    restart: unless-stopped
-    depends_on:
-      - db
-    ports:
-      - "80:80"
-    environment:
-      WORDPRESS_DB_HOST: db:3306
-      WORDPRESS_DB_USER: wpuser
-      WORDPRESS_DB_PASSWORD: ${MYSQL_PASSWORD:-ChangeMe_WP123}
-      WORDPRESS_DB_NAME: wordpress
-    volumes:
-      - wp_data:/var/www/html
-    networks:
-      - backend
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+BACKUP_DIR="$SCRIPT_DIR/backups"
+STAMP="$(date +%F_%H-%M-%S)"
+FILE="$BACKUP_DIR/wordpress_$STAMP.sql"
 
-volumes:
-  db_data:
-  wp_data:
+mkdir -p "$BACKUP_DIR"
 
-networks:
-  backend:
+# Root password is read from inside the container, so none is stored in this script
+docker exec wp_db sh -c 'mysqldump -u root -p"$MYSQL_ROOT_PASSWORD" wordpress' > "$FILE"
+
+# Keep only the last 7 days of backups
+find "$BACKUP_DIR" -name "wordpress_*.sql" -mtime +7 -delete
+
+echo "$(date): backup OK -> $FILE" >> "$BACKUP_DIR/backup.log"
